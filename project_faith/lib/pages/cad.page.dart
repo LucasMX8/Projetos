@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'login.page.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class CadPage extends StatefulWidget {
   @override
@@ -114,7 +115,7 @@ class _CadPageState extends State<CadPage> {
                     ),
                     Padding(
                       padding: EdgeInsets.only(
-                        top: 25,
+                        top: 20,
                         bottom: 18,
                       ),
                       child: TextFormField(
